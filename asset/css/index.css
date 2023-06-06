@@ -1,0 +1,221 @@
+/* COMMON CSS START */
+
+a {
+  text-decoration: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffd7ad;
+}
+/* COMMON CSS END */
+
+/* NAVBAR SECTION START */
+
+#navbar {
+  background-color: #4a1831;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+.nav-link {
+  margin: 0 25px;
+  color: #fff;
+}
+a {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-item :hover {
+  color: #000;
+}
+.navbar-toggler-icon {
+  background-image: url("http://www.w3.org/2000/svg");
+}
+
+/* NAVBAR SECTION END */
+
+/*  BANNER SECTION START */
+
+#banner {
+  width: 100%;
+  background-image: url(../banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+.banner_content {
+  padding: 180px 0;
+}
+.banner_content h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffd7ad;
+}
+.banner_content p {
+  font-size: 20px;
+  padding: 10px 500px 26px 0;
+  color: #ffd7ad;
+}
+.banner_content a {
+  padding: 12px 30px;
+  background: #ffd7ad;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  color: #4a1831;
+}
+
+/*  BANNER SECTION END */
+
+/* MANU SECTION START */
+
+#menu {
+  width: 100%;
+  background-color: #ffd7ad;
+}
+.menu_content {
+  text-align: center;
+  padding: 60px 0;
+}
+.menu_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4a1831;
+}
+.menu_content p {
+  font-size: 22px;
+  padding: 20px 0 26px 0;
+}
+.menu_content a {
+  padding: 12px 30px;
+  background: #4a1831;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  color: #ffd7ad;
+}
+
+/* MANU SECTION END */
+
+/* ABOUT MARIACHI SECTION START */
+
+#about {
+  width: 100%;
+  background-color: #ffd7ad;
+  padding: 100px 0;
+}
+.about_mariachi_img img {
+  width: 520px;
+}
+.about_mariachi_content {
+  margin: 0 auto;
+  padding: 160px 0 0 50px;
+}
+.about_mariachi_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4a1831;
+}
+.about_mariachi_content p {
+  font-size: 22px;
+  padding: 20px 0 26px 0;
+  color: #4a1831;
+}
+.about_mariachi_content a {
+  padding: 12px 30px;
+  background: #4a1831;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  color: #ffd7ad;
+}
+
+/* ABOUT MARIACHI SECTION END */
+
+/* DISCOUNT SECTION START */
+
+#discount {
+  width: 100%;
+  background-color: #ffd7ad;
+  padding: 100px 0 524px 0;
+}
+.discount_content img {
+  position: absolute;
+  width: 750px;
+  margin: 0 0 0 415px;
+}
+.discount_content h2 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 60px;
+  position: absolute;
+}
+span {
+  font-size: 55px;
+  font-weight: 800;
+  color: #e63956;
+}
+
+/* DISCOUNT SECTION END */
+
+/* OFFERS SECTION START */
+
+#offers {
+  width: 100%;
+  background: #4a1831;
+  padding: 100px 0 80px 0;
+}
+.offers_content {
+  padding: 145px 0 0 0;
+}
+.offers_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffd7ad;
+}
+.offers_content p {
+  font-size: 22px;
+  padding: 20px 150px 26px 0;
+  color: #ffd7ad;
+}
+.offers_content a {
+  padding: 12px 30px;
+  background: #ffd7ad;
+  border-radius: 45px;
+  letter-spacing: 3px;
+  color: #4a1831;
+}
+
+/* OFFERS SECTION END */
+
+/* END SECTION START */
+
+#end {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../end\ section\ img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+.end_content {
+  text-align: center;
+}
+.end_content img {
+  width: 165px;
+}
+.end_content p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffd7ad;
+  padding: 35px 175px;
+}
+.end_content h4 {
+  font-size: 33px;
+  font-weight: 700;
+  color: #ffd7ad;
+}
+
+/* END SECTION END */
